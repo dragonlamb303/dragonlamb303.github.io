@@ -34,3 +34,19 @@ img {
     font-size: 50px;
     font-family:'Times New Roman', Times, serif
 }
+
+.a {
+    color: rgb(165, 118, 0);
+  }
+  
+  .a:visited {
+    color: rgb(165, 118, 0);
+  }
+  
+  .a:hover {
+    color: rgb(165, 118, 0);
+  }
+  
+  .a:active {
+    color: rgb(165, 118, 0);
+  }
