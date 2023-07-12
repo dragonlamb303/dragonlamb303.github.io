@@ -1,5 +1,8 @@
-body {
+.body {
     background-color:lightskyblue
+}
+.body1 {
+    background-color: aliceblue;
 }
 
 h1,h2,p,h3{
@@ -7,6 +10,7 @@ h1,h2,p,h3{
 }
 h1 {
     font-family:fantasy;
+    font-size: 80px;
 }
 img {
     display:block;
@@ -16,12 +20,14 @@ img {
 
 .orange {
     color:orangered;
+    font-size: 50px;
     font-style:italic
 }
 
 .size {
     height: 250px;
     width:350px;
+    margin-bottom:100px;
 }
 
 .space_top {
@@ -49,4 +55,51 @@ img {
   
   .a:active {
     color: rgb(165, 118, 0);
+  }
+
+  .frame {
+    height:800px;
+    width:50px;
+    background: linear-gradient(hsl(46, 100%, 45%), hsl(49, 98%, 57%), hsl(39, 99%, 45%));
+    box-shadow: 0 0 20px 0 gold;
+    margin-left: 425px;
+  }
+  .frame2 {
+    height:50px;
+    width:1025px;
+    background: linear-gradient(hsl(46, 100%, 45%), hsl(49, 98%, 57%), hsl(39, 99%, 45%));
+    box-shadow: 0 0 20px 0 gold;
+    margin-left: 0px;
+  }
+  .frame3 {
+    height:700px;
+    width:50px;
+    background: linear-gradient(hsl(46, 100%, 45%), hsl(49, 98%, 57%), hsl(39, 99%, 45%));
+    box-shadow: 0 0 20px 0 gold;
+    margin-left: 975px;
+  }
+  .frame4 {
+    height:50px;
+    width:1025px;
+    background: linear-gradient(hsl(46, 100%, 45%), hsl(49, 98%, 57%), hsl(39, 99%, 45%));
+    box-shadow: 0 0 20px 0 gold;
+
+  }
+
+  .image {
+    height:800px;
+    width:1025px;
+    background: linear-gradient(hsl(46, 100%, 45%), hsl(49, 98%, 57%), hsl(39, 99%, 45%));
+    box-shadow: 0 0 50px 20px gold;
+    margin-top:200px;
+    margin-bottom:100px;
+  }
+
+  .imageC {
+    height:800px;
+    width:1025px;
+    background: linear-gradient(hsl(46, 100%, 45%), hsl(49, 98%, 57%), hsl(39, 99%, 45%));
+    box-shadow: 0 0 50px 20px gold;
+    margin-bottom:100px;
+    margin-top: 50px;
   }
